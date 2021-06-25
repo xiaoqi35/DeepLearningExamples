@@ -1,3 +1,4 @@
+#xiaoqi , first test 
 # Copyright (c) 2020, NVIDIA CORPORATION.  All rights reserved.
 
 # Redistribution and use in source and binary forms, with or without
@@ -33,6 +34,7 @@ def get_requirements(filename='requirements.txt'):
             if pkg.strip():
                 deps.append(pkg)
     return deps
+
 
 
 setup(
